@@ -22,5 +22,9 @@
   "azureFunctions.preDeployTask": "npm prune (functions)",
   "yaml.schemas": {
     "https://codemagic.io/codemagic-schema.json": "file:///c%3A/Program%20Files/PowerShell/7-preview/oh-my-posh/themes/devious-diamonds.omp.yaml"
-  }
+  },
+  "rsp-ui.rsp.java.home": "C:\\Program Files\\Java\\jdk-17.0.1",
+
+
+
 }
