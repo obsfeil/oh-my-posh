@@ -16,8 +16,8 @@
           "type": "os"
         },
         {
-          "background": "#0087D8",
-          "foreground": "#003544",
+          "background": "#00d800",
+          "foreground": "#004406",
           "powerline_symbol": "\ue0b0",
           "properties": {
             "folder_separator_icon": "/",
