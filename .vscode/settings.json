@@ -19,5 +19,8 @@
   "azureFunctions.projectRuntime": "~4",
   "debug.internalConsoleOptions": "neverOpen",
   "azureFunctions.projectSubpath": "docs/api",
-  "azureFunctions.preDeployTask": "npm prune (functions)"
+  "azureFunctions.preDeployTask": "npm prune (functions)",
+  "yaml.schemas": {
+    "https://codemagic.io/codemagic-schema.json": "file:///c%3A/Program%20Files/PowerShell/7-preview/oh-my-posh/themes/devious-diamonds.omp.yaml"
+  }
 }
