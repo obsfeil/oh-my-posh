@@ -17,10 +17,10 @@ importers:
         version: 3.2.1(@docusaurus/types@3.2.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@5.4.5)
       '@docusaurus/preset-classic':
         specifier: ^3.2.1
-        version: 3.2.1(@algolia/client-search@4.23.3)(@types/react@18.3.5)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(search-insights@2.14.0)(typescript@5.4.5)
+        version: 3.2.1(@algolia/client-search@4.23.3)(@types/react@19.0.8)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(search-insights@2.14.0)(typescript@5.4.5)
       '@docusaurus/theme-search-algolia':
         specifier: ^3.2.1
-        version: 3.2.1(@algolia/client-search@4.23.3)(@docusaurus/types@3.2.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(@types/react@18.3.5)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(search-insights@2.14.0)(typescript@5.4.5)
+        version: 3.2.1(@algolia/client-search@4.23.3)(@docusaurus/types@3.2.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(@types/react@19.0.8)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(search-insights@2.14.0)(typescript@5.4.5)
       '@iarna/toml':
         specifier: ^2.2.5
         version: 2.2.5
@@ -1269,8 +1269,8 @@ packages:
   '@types/react@18.3.3':
     resolution: {integrity: sha512-hti/R0pS0q1/xx+TsI73XIqk26eBsISZ2R0wUijXIngRK9R/e7Xw/cXVxQK7R5JjW+SV4zGcn5hXjudkN/pLIw==}
 
-  '@types/react@18.3.5':
-    resolution: {integrity: sha512-WeqMfGJLGuLCqHGYRGHxnKrXcTitc6L/nBUWfWPcTarG3t9PsquqUMuVeXZeca+mglY4Vo5GZjCi0A3Or2lnxA==}
+  '@types/react@19.0.8':
+    resolution: {integrity: sha512-9P/o1IGdfmQxrujGbIMDyYaaCykhLKc0NGCtYcECNUr9UAaDe4gwvV9bR6tvd5Br1SG0j+PBpbKr2UYY8CwqSw==}
 
   '@types/responselike@1.0.2':
     resolution: {integrity: sha512-/4YQT5Kp6HxUDb4yhRkm0bJ7TbjvTddqX7PZ5hz6qV3pxSo72f/6YPRo+Mu2DU307tm9IioO69l7uAwn5XNcFA==}
@@ -1842,8 +1842,8 @@ packages:
   cookie-signature@1.0.6:
     resolution: {integrity: sha512-QADzlaHc8icV8I7vbaJXJwod9HWYp8uCqf1xa4OfNu1T7JVxQIrUgOWtHdNDtPiywmFbiS12VjotIXLrKM3orQ==}
 
-  cookie@0.6.0:
-    resolution: {integrity: sha512-U71cyTamuh1CRNCfpGY6to28lxvNwPG4Guz/EVjgf3Jmzv0vlDp1atT9eS5dDjMYHucpHbWns6Lwf3BKz6svdw==}
+  cookie@0.7.1:
+    resolution: {integrity: sha512-6DnInpx7SJ2AK3+CTUE/ZM0vWTUboZCegxhC2xiIydHR9jNuTAASBrfEpHhiGOZw/nX51bHt6YQl8jsGo4y/0w==}
     engines: {node: '>= 0.6'}
 
   copy-text-to-clipboard@3.2.0:
@@ -2163,8 +2163,8 @@ packages:
   electron-to-chromium@1.4.750:
     resolution: {integrity: sha512-9ItEpeu15hW5m8jKdriL+BQrgwDTXEL9pn4SkillWFu73ZNNNQ2BKKLS+ZHv2vC9UkNhosAeyfxOf/5OSeTCPA==}
 
-  elliptic@6.5.7:
-    resolution: {integrity: sha512-ESVCtTwiA+XhY3wyh24QqRGBoP3rEdDUl3EDUUo9tft074fi19IrdpH7hLCMMP3CIj7jb3W96rn8lt/BqIlt5Q==}
+  elliptic@6.6.1:
+    resolution: {integrity: sha512-RaddvvMatK2LJHqFJ+YA4WysVN5Ita9E35botqIYspQ4TkRAlCicdzKOjlyv/1Za5RyTNn7di//eEV0uTAfe3g==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -2313,8 +2313,8 @@ packages:
     resolution: {integrity: sha512-8uSpZZocAZRBAPIEINJj3Lo9HyGitllczc27Eh5YYojjMFMn8yHMDMaUHE2Jqfq05D/wucwI4JGURyXt1vchyg==}
     engines: {node: '>=10'}
 
-  express@4.21.0:
-    resolution: {integrity: sha512-VqcNGcj/Id5ZT1LZ/cfihi3ttTn+NJmkli2eZADigjq29qTlWi/hAQ43t/VLPq8+UX06FCEx3ByOYet6ZFblng==}
+  express@4.21.2:
+    resolution: {integrity: sha512-28HqgMZAmih1Czt9ny7qr6ek2qddF4FclbMzwhCREB6OFfH+rXAnuNCwo1/wFvrtbgsQDb4kSbX9de9lFbrXnA==}
     engines: {node: '>= 0.10.0'}
 
   extend-shallow@2.0.1:
@@ -3607,8 +3607,8 @@ packages:
   path-parse@1.0.7:
     resolution: {integrity: sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==}
 
-  path-to-regexp@0.1.10:
-    resolution: {integrity: sha512-7lf7qcQidTku0Gu3YDPc8DJ1q7OOucfa/BSsIwjuh56VU7katFvuM8hULfkwB3Fns/rsVF7PwPKVw1sl5KQS9w==}
+  path-to-regexp@0.1.12:
+    resolution: {integrity: sha512-RA1GjUVMnvYFxuqovrEqZoxxW5NUZqbwKtYz/Tt7nXerk0LbLblQmrsgdeOxV5SFHf0UDggjS/bSeOZwt1pmEQ==}
 
   path-to-regexp@1.8.0:
     resolution: {integrity: sha512-n43JRhlUKUAlibEJhPeir1ncUID16QnEjNpwzNdO3Lm4ywrBpBZ5oLD0I6br9evr1Y9JTqwRtAh7JLoOzAQdVA==}
@@ -5790,14 +5790,14 @@ snapshots:
 
   '@docsearch/css@3.5.2': {}
 
-  '@docsearch/react@3.5.2(@algolia/client-search@4.23.3)(@types/react@18.3.5)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(search-insights@2.14.0)':
+  '@docsearch/react@3.5.2(@algolia/client-search@4.23.3)(@types/react@19.0.8)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(search-insights@2.14.0)':
     dependencies:
       '@algolia/autocomplete-core': 1.9.3(@algolia/client-search@4.23.3)(algoliasearch@4.20.0)(search-insights@2.14.0)
       '@algolia/autocomplete-preset-algolia': 1.9.3(@algolia/client-search@4.23.3)(algoliasearch@4.20.0)
       '@docsearch/css': 3.5.2
       algoliasearch: 4.20.0
     optionalDependencies:
-      '@types/react': 18.3.5
+      '@types/react': 19.0.8
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
       search-insights: 2.14.0
@@ -5949,7 +5949,7 @@ snapshots:
       '@docusaurus/react-loadable': 5.5.2(react@17.0.2)
       '@docusaurus/types': 3.2.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
       '@types/history': 4.7.11
-      '@types/react': 18.3.5
+      '@types/react': 19.0.8
       '@types/react-router-config': 5.0.9
       '@types/react-router-dom': 5.3.3
       react: 17.0.2
@@ -6200,7 +6200,7 @@ snapshots:
       - vue-template-compiler
       - webpack-cli
 
-  '@docusaurus/preset-classic@3.2.1(@algolia/client-search@4.23.3)(@types/react@18.3.5)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(search-insights@2.14.0)(typescript@5.4.5)':
+  '@docusaurus/preset-classic@3.2.1(@algolia/client-search@4.23.3)(@types/react@19.0.8)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(search-insights@2.14.0)(typescript@5.4.5)':
     dependencies:
       '@docusaurus/core': 3.2.1(@docusaurus/types@3.2.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@5.4.5)
       '@docusaurus/plugin-content-blog': 3.2.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@5.4.5)
@@ -6211,9 +6211,9 @@ snapshots:
       '@docusaurus/plugin-google-gtag': 3.2.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@5.4.5)
       '@docusaurus/plugin-google-tag-manager': 3.2.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@5.4.5)
       '@docusaurus/plugin-sitemap': 3.2.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@5.4.5)
-      '@docusaurus/theme-classic': 3.2.1(@types/react@18.3.5)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@5.4.5)
+      '@docusaurus/theme-classic': 3.2.1(@types/react@19.0.8)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@5.4.5)
       '@docusaurus/theme-common': 3.2.1(@docusaurus/types@3.2.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@5.4.5)
-      '@docusaurus/theme-search-algolia': 3.2.1(@algolia/client-search@4.23.3)(@docusaurus/types@3.2.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(@types/react@18.3.5)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(search-insights@2.14.0)(typescript@5.4.5)
+      '@docusaurus/theme-search-algolia': 3.2.1(@algolia/client-search@4.23.3)(@docusaurus/types@3.2.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(@types/react@19.0.8)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(search-insights@2.14.0)(typescript@5.4.5)
       '@docusaurus/types': 3.2.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
@@ -6239,11 +6239,11 @@ snapshots:
 
   '@docusaurus/react-loadable@5.5.2(react@17.0.2)':
     dependencies:
-      '@types/react': 18.3.5
+      '@types/react': 19.0.8
       prop-types: 15.8.1
       react: 17.0.2
 
-  '@docusaurus/theme-classic@3.2.1(@types/react@18.3.5)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@5.4.5)':
+  '@docusaurus/theme-classic@3.2.1(@types/react@19.0.8)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@5.4.5)':
     dependencies:
       '@docusaurus/core': 3.2.1(@docusaurus/types@3.2.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@5.4.5)
       '@docusaurus/mdx-loader': 3.2.1(@docusaurus/types@3.2.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
@@ -6257,7 +6257,7 @@ snapshots:
       '@docusaurus/utils': 3.2.1(@docusaurus/types@3.2.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2))
       '@docusaurus/utils-common': 3.2.1(@docusaurus/types@3.2.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2))
       '@docusaurus/utils-validation': 3.2.1(@docusaurus/types@3.2.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2))
-      '@mdx-js/react': 3.0.1(@types/react@18.3.5)(react@17.0.2)
+      '@mdx-js/react': 3.0.1(@types/react@19.0.8)(react@17.0.2)
       clsx: 2.1.1
       copy-text-to-clipboard: 3.2.0
       infima: 0.2.0-alpha.43
@@ -6327,9 +6327,9 @@ snapshots:
       - vue-template-compiler
       - webpack-cli
 
-  '@docusaurus/theme-search-algolia@3.2.1(@algolia/client-search@4.23.3)(@docusaurus/types@3.2.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(@types/react@18.3.5)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(search-insights@2.14.0)(typescript@5.4.5)':
+  '@docusaurus/theme-search-algolia@3.2.1(@algolia/client-search@4.23.3)(@docusaurus/types@3.2.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(@types/react@19.0.8)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(search-insights@2.14.0)(typescript@5.4.5)':
     dependencies:
-      '@docsearch/react': 3.5.2(@algolia/client-search@4.23.3)(@types/react@18.3.5)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(search-insights@2.14.0)
+      '@docsearch/react': 3.5.2(@algolia/client-search@4.23.3)(@types/react@19.0.8)(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(search-insights@2.14.0)
       '@docusaurus/core': 3.2.1(@docusaurus/types@3.2.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2))(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@5.4.5)
       '@docusaurus/logger': 3.2.1
       '@docusaurus/plugin-content-docs': 3.2.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)(typescript@5.4.5)
@@ -6518,10 +6518,10 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@mdx-js/react@3.0.1(@types/react@18.3.5)(react@17.0.2)':
+  '@mdx-js/react@3.0.1(@types/react@19.0.8)(react@17.0.2)':
     dependencies:
       '@types/mdx': 2.0.13
-      '@types/react': 18.3.5
+      '@types/react': 19.0.8
       react: 17.0.2
 
   '@nodelib/fs.scandir@2.1.5':
@@ -6781,28 +6781,27 @@ snapshots:
   '@types/react-router-config@5.0.9':
     dependencies:
       '@types/history': 4.7.11
-      '@types/react': 18.3.5
+      '@types/react': 19.0.8
       '@types/react-router': 5.1.20
 
   '@types/react-router-dom@5.3.3':
     dependencies:
       '@types/history': 4.7.11
-      '@types/react': 18.3.5
+      '@types/react': 19.0.8
       '@types/react-router': 5.1.20
 
   '@types/react-router@5.1.20':
     dependencies:
       '@types/history': 4.7.11
-      '@types/react': 18.3.5
+      '@types/react': 19.0.8
 
   '@types/react@18.3.3':
     dependencies:
       '@types/prop-types': 15.7.12
       csstype: 3.1.3
 
-  '@types/react@18.3.5':
+  '@types/react@19.0.8':
     dependencies:
-      '@types/prop-types': 15.7.12
       csstype: 3.1.3
 
   '@types/responselike@1.0.2':
@@ -7215,7 +7214,7 @@ snapshots:
       browserify-rsa: 4.1.0
       create-hash: 1.2.0
       create-hmac: 1.1.7
-      elliptic: 6.5.7
+      elliptic: 6.6.1
       hash-base: 3.0.4
       inherits: 2.0.4
       parse-asn1: 5.1.7
@@ -7471,7 +7470,7 @@ snapshots:
 
   cookie-signature@1.0.6: {}
 
-  cookie@0.6.0: {}
+  cookie@0.7.1: {}
 
   copy-text-to-clipboard@3.2.0: {}
 
@@ -7523,7 +7522,7 @@ snapshots:
   create-ecdh@4.0.4:
     dependencies:
       bn.js: 4.12.0
-      elliptic: 6.5.7
+      elliptic: 6.6.1
 
   create-hash@1.2.0:
     dependencies:
@@ -7855,7 +7854,7 @@ snapshots:
 
   electron-to-chromium@1.4.750: {}
 
-  elliptic@6.5.7:
+  elliptic@6.6.1:
     dependencies:
       bn.js: 4.12.0
       brorand: 1.1.0
@@ -7996,14 +7995,14 @@ snapshots:
       signal-exit: 3.0.7
       strip-final-newline: 2.0.0
 
-  express@4.21.0:
+  express@4.21.2:
     dependencies:
       accepts: 1.3.8
       array-flatten: 1.1.1
       body-parser: 1.20.3
       content-disposition: 0.5.4
       content-type: 1.0.5
-      cookie: 0.6.0
+      cookie: 0.7.1
       cookie-signature: 1.0.6
       debug: 2.6.9
       depd: 2.0.0
@@ -8017,7 +8016,7 @@ snapshots:
       methods: 1.1.2
       on-finished: 2.4.1
       parseurl: 1.3.3
-      path-to-regexp: 0.1.10
+      path-to-regexp: 0.1.12
       proxy-addr: 2.0.7
       qs: 6.13.0
       range-parser: 1.2.1
@@ -9661,7 +9660,7 @@ snapshots:
 
   path-parse@1.0.7: {}
 
-  path-to-regexp@0.1.10: {}
+  path-to-regexp@0.1.12: {}
 
   path-to-regexp@1.8.0:
     dependencies:
@@ -10937,7 +10936,7 @@ snapshots:
       compression: 1.7.4
       connect-history-api-fallback: 2.0.0
       default-gateway: 6.0.3
-      express: 4.21.0
+      express: 4.21.2
       graceful-fs: 4.2.11
       html-entities: 2.4.0
       http-proxy-middleware: 2.0.6(@types/express@4.17.20)
